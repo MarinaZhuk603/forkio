@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7634cfa-09b8-405e-a7ea-e185ec99fa3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/script.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/LogoPencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen1200/Background_1200@1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen1200/Background_1200_black1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen1200/Reviewes_1200@1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen320/Background_Mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen320/LogoPencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen320/ReviewingSection_Mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen320/logo-hover@1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Screen786/Background_768@1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/reviews_img/logo@1X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +16,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.43783784">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="77">
                   <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -89,9 +75,9 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scss/_reset.scss" />
         <option value="$PROJECT_DIR$/r.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -119,28 +105,6 @@
               <item name="stepforkio" type="b2602c69:ProjectViewProjectNode" />
               <item name="stepforkio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="stepforkio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stepforkio" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stepforkio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stepforkio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stepforkio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stepforkio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stepforkio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stepforkio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +117,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556182495191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556184346574" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
@@ -202,17 +166,25 @@
       <workItem from="1555692106029" duration="70000" />
       <workItem from="1556014239536" duration="1914000" />
       <workItem from="1556097128179" duration="7884000" />
-      <workItem from="1556114290919" duration="13488000" />
+      <workItem from="1556114290919" duration="15344000" />
     </task>
+    <task id="LOCAL-00001" summary="added file">
+      <created>1556184124109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556184124111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40068000" />
+    <option name="totallyTimeSpent" value="41924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14862682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2584814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -231,7 +203,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6824324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47635135" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -247,6 +219,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -321,17 +297,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
