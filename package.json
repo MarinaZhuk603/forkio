@@ -8,7 +8,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "sass": "^1.18.0"
   },
   "dependencies": {
     "browser-sync": "^2.26.3",

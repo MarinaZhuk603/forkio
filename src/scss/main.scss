@@ -8,3 +8,467 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) {
+  .header{/*надо доработать растяжение фона*/
+    width: 100vw;
+   /* height: 718px;
+    background-image: url("../img/Screen320/Background_Mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;*/
+  }
+  .top-container {
+    height: 103px;
+    width: 100%;
+    background-color: #27262a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat,sans-serif;
+    z-index: 1999;
+  }
+  .top-container__menu{/*появиться при размере 768*/
+    display: none;
+  }
+  .logo-text__item {
+    display: none;
+  }
+  .top-container__logo-pencil {
+    height: 43px;
+    width: 41px;
+    background-image: url("../img/LogoPencil.png");
+    cursor: pointer;
+    position: absolute;
+    left:16px;
+  }
+  .top-container__logo-pencil:hover{
+   background-image: url("../img/Screen320/logo-hover@1X.png");
+   position: absolute;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 119px;
+    height: 37px;
+    background-color: #8d81ac;
+    border-radius: 25px;
+    border: none;
+  }
+  .button-styles {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    align-content: start;
+    background-image: url("../img/Screen320/Background_Mobile.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  }
+  .container__button-position{
+    width: 290px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    top: 709px;
+  }
+  .under-button-text{
+    text-decoration: none;
+    text-transform: capitalize;
+    position:absolute;
+    z-index: 1998;
+    top:766px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #848e97;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+  }
+  /*выпадающий список*/
+  .top-container__nav {
+    width: 290px;
+    height: 367px;
+    position: fixed;
+    top: 103px;
+    right: -320px; /* Сдвигаем (прячем) панель */
+    background: #333333;
+    z-index: 2000; /* Поверх других элементов */
+  }
+
+  /*вертикальная полоска слева в списке*/
+  .top-container__nav > .nav__nav-list > .nav-list__list-item > .nav-list__list-row:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 1px;
+    bottom: 0;
+    height: 0%;
+    background: transparent;
+  }
+
+  /*вертикальная полоска слева в списке при нажатии*/
+  .top-container__nav > .nav__nav-list > .nav-list__list-item > .nav-list__list-row:hover:after {
+    height: 53px;
+    width: 8px;
+    background: rgba(141, 129, 172, 255);
+  }
+
+  /*элементы списка*/
+  .top-container__nav > .nav__nav-list > .nav-list__list-item > .nav-list__list-row {
+    display: inline-block;
+    position: relative;
+    padding-left: 33px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    color: #f1f1f1;
+    width: 100%;
+    font-size: 19.07445pt;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 0.5px solid #3b3b3b;
+  }
+
+  /*Цвет текста при наведении*/
+  .top-container__nav > .nav__nav-list > .nav-list__list-item > .nav-list__list-row:hover {
+    color: rgba(141, 129, 172, 255);
+  }
+
+  .top-container__nav > .nav__nav-list > .nav-list__list-item {
+    -webkit-transition: opacity .5s .1s, -webkit-transform .5s .1s;
+    -moz-transition: opacity .5s .1s, -moz-transform .5s .1s;
+    -ms-transition: opacity .5s .1s, -ms-transform .5s .1s;
+    transition: opacity .5s .1s, transform .5s .1s;
+  }
+
+  /*Кнопка переключения панели 1. Абсолютно позиционирована*/
+  .top-container__nav-toggle {
+    position: fixed; /* 1 */
+    right: 21px;
+    top: 41px;
+    color: white;
+    cursor: pointer;
+    font-size: 27px;
+    line-height: 1;
+    z-index: 2001;
+  }
+
+  .top-container__nav-toggle:after {
+    content: '\2630';
+    text-decoration: none; /*бургер-полоски*/
+  }
+  .title {
+    padding-top: 43px;
+    text-transform: capitalize;
+    font-size: 48px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .container__text{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #8d81ac;
+    font-weight: 400;
+  }
+  .container__small-text{
+    text-transform: uppercase;
+    padding-left: 46px;
+    padding-right: 47px;
+    padding-bottom: 424px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #848e97;
+    font-weight: 400;
+  }
+  /*Изменение символа кнопки когда навигация раскрыта */
+  [id='nav-toggle']:checked ~ .top-container__nav-toggle {
+    color: white;
+    padding: 0.5em 0.54em;
+    top: 1em;
+  }
+  [id='nav-toggle']:checked ~ .top-container__nav-toggle:after {
+    content: '\2715';
+  }
+  /* Скрытый чекбокс невидим и недоступен */
+  [id='nav-toggle'] {
+    position: absolute;
+    display: none;
+  }
+  [id='nav-toggle']:checked ~ .top-container__nav {
+    right: 15px;
+    overflow-y: auto;
+  }
+  .top-container__nav > .nav__nav-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+  }
+  .top-container__nav >.nav__nav-list > .nav-list__list-item {
+    opacity: 0;
+  }
+  [id='nav-toggle']:checked ~ .top-container__nav > .nav__nav-list > .nav-list__list-item {
+    opacity: 1;
+  }
+  /*section reviews*/
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 61px;
+    padding-left: 30px;
+    padding-right: 24px;
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/Screen320/ReviewingSection_Mobile.png");
+  }
+  .reviews__box{
+    padding-left: 38px;
+    padding-right: 42px;
+    padding-top: 49px;
+    padding-bottom: 71px;
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    align-content: space-around;
+  }
+  .reviews__item{
+    flex-basis: 100%;
+  }
+  .img__item{
+    padding-bottom: 30px;
+    padding-top: 45px;
+  }
+  .reviews > .title {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+  }
+  .reviews__text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+  }
+  .reviews__line{
+    width: 280px;
+    height: 2px;
+    background-color: #a5acb3;
+    margin-top: 44px;
+    margin-bottom: 71px;
+  }
+  .reviews__footer-text{
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mypart{/*надо доработать растяжение фона*/
+    width: 100vw;
+    background-image: url("../img/Screen786/Background_768@1X.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 118px;
+    width: 100vw;
+    background-color: #27262a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .top-container__menu{
+    display:block;
+    flex-basis:100%;
+  }
+  .top-container__logo-pencil {
+    cursor: pointer;
+    position: absolute;
+    top:15px;
+    left:20px;
+  }
+  .logo-text__item{
+    display:flex;
+    margin-left: 58px;
+    font-size: 20pt;
+    color: rgba(141, 129, 172, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .logo-text__item:hover{
+    color:#fff;
+  }
+  .top-container__button{
+    margin-right: 20px;
+  }
+  .menu__nav-list{/*nav-list*/
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-list__list-row{
+    color: #8d81ac;
+    text-decoration: none;
+  }
+  .nav-list__list-row:hover{
+    color: #fff;
+  }
+  .top-container__nav-toggle {
+    display: none;
+  }
+  .container__title {
+    padding-top: 168px;
+  }
+  .container_text {
+    padding-bottom: 487px;
+  }
+  .container__small-text{
+    font-size: 10.27086pt;
+    color: rgba(132, 142, 151, 255);
+    text-transform: uppercase;
+    padding-left: 46px;
+    padding-right: 47px;
+    padding-bottom: 424px;
+  }
+  .reviews__item{
+    flex-basis: 45%;
+  }
+  .reviews__box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: baseline;
+  }
+  .reviews > .title{
+    padding-bottom: 96px;
+  }
+  .reviews {
+    padding-top: 79px;
+    padding-left: 18px;
+    padding-right: 18px;
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/Screen1200/Reviewes_1200@1X.png");
+  }
+  .reviews__line{
+    width: 699px;
+    height: 2px;
+    margin-bottom: 80px;
+    margin-top:16px;
+  }
+  .reviews__footer-text{
+    display: block;
+    color:#8c7b8f;
+    margin-top: 61px;
+  }
+
+}
+@media screen and (min-width: 1200px) {
+  .mypart { /*надо доработать растяжение фона*/
+    width: 100%;
+    background-image: url("../img/Screen1200/Background_1200_black1X.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top-container {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: end;
+  }
+  .container__title {
+    padding-top: 160px;
+  }
+  .container__text {
+    padding-bottom: 487px;
+  }
+
+  .top-container__logo-pencil {
+    top: 38px;
+  }
+  .flex-elem2 {
+    order: 1;
+    flex-basis: 145px;
+  }
+  .top-container__menu {
+    display: block;
+    flex-basis: 50%;
+    margin-left: 300px;
+    justify-self: self-end;
+  }
+  .reviews__item {
+    flex-basis: 30%;
+  }
+  .reviews {
+    padding-top: 98px;
+    padding-left: 96px;
+    padding-right: 91px;
+  }
+  .reviews__line {
+    width: 780px;
+    height: 2px;
+    background-color: #a5acb3;
+    margin-bottom: 78px;
+    margin-top: 15px;
+  }
+  .reviews__footer-text {
+    margin-top: 118px;
+    display: block;
+  }
+  .title {
+    font-size: 82px;
+    line-height: 20px;
+  }
+  .reviews > .title {
+    text-align: center;
+    padding: 0;
+    font-size: 48px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+
+  }
+}
