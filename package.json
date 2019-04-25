@@ -29,5 +29,13 @@
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MarinaZhuk/forkio.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/MarinaZhuk/forkio/issues"
+  },
+  "homepage": "https://gitlab.com/MarinaZhuk/forkio#readme",
   "description": ""
 }
