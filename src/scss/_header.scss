@@ -1,6 +1,7 @@
 $font-M:     Montserrat, sans-serif;
 $font-L: "Lato";
 $primary-color:  #8d81ac;
+$secondary-color:#ffffff;
 
 @media screen and (min-width: 320px) {
   .header { /*надо доработать растяжение фона*/
@@ -44,6 +45,9 @@ $primary-color:  #8d81ac;
       border: none;
     }
 
+    &__small-button:hover{/*добавила сегодня*/
+      background-color:$secondary-color;
+    }
   }
   .logo-text {
     &__item {
@@ -55,16 +59,14 @@ $primary-color:  #8d81ac;
       font-weight: 700;
   }
 }
-  .small-button {
-    &-styles {
+  .small-button-styles{
       font-size: 15px;
       line-height: 15px;
-      color: #ffffff;
+      color: $secondary-color;
       font-family:$font-M;
       font-weight: 700;
       text-align: center;
       text-decoration: none;
-    }
   }
 
   .container {
@@ -466,6 +468,12 @@ $primary-color:  #8d81ac;
     justify-items: end;
     height: 100px;
 
+    &__small-button:hover{/*добавила сегодня*/
+      background-color:$secondary-color;
+    }
+    .small-button-styles:hover{/*добавила сегодня*/
+      color: $primary-color;
+    }
 
       &__button{
         /*margin-left: 48px;*/

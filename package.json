@@ -1,7 +1,6 @@
 {
   "name": "forkio.",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,9 +8,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "sass": "^1.18.0"
-  },
-  "dependencies": {
+    "sass": "^1.18.0",
     "browser-sync": "^2.26.3",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
