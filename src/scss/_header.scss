@@ -1,5 +1,5 @@
-$font-M:     Montserrat, sans-serif;
-$font-L: "Lato";
+$font-M: Montserrat, sans-serif;
+$font-L: "Lato", sans-serif;
 $primary-color:  #8d81ac;
 $secondary-color:#ffffff;
 
@@ -24,11 +24,7 @@ $secondary-color:#ffffff;
       cursor: pointer;
       position: absolute;
       left: 16px;
-    }
-
-    &__logo-pencil:hover {
-      background-image: url("../src/img/Screen320/logo-hover@1X.png");
-      position: absolute;
+      top:35px;
     }
 
     &__menu { /*появиться при размере 768*/
@@ -43,12 +39,25 @@ $secondary-color:#ffffff;
       background-color:$primary-color;
       border-radius: 45px;
       border: none;
+      transition: 0.7s;
     }
-
-    &__small-button:hover{/*добавила сегодня*/
+    &__small-button:hover{
       background-color:$secondary-color;
+      border: 1px solid $primary-color;
+    }
+    &__button:hover .small-button-styles{
+      color: $primary-color;
     }
   }
+
+  .logo-hover:hover .top-container__logo-pencil{/*изменения ховера 22.05*/
+    background-image: url("../src/img/Screen320/logo-hover@1X.png");
+  }
+
+  .logo-hover:hover .logo-text__item{/*изменения ховера 22.05*/
+    color:$secondary-color;
+  }
+
   .logo-text {
     &__item {
       display: none;
@@ -57,8 +66,8 @@ $secondary-color:#ffffff;
       color:$primary-color;
       font-family: $font-L;
       font-weight: 700;
-  }
-}
+      }
+    }
   .small-button-styles{
       font-size: 15px;
       line-height: 15px;
@@ -103,6 +112,13 @@ $secondary-color:#ffffff;
         background-color: $primary-color;
         border-radius: 45px;
         border: none;
+      }
+      &__button:hover{/*сейчас доработать*/
+        background-color: $secondary-color;
+        border: 1px solid $primary-color;
+      }
+      &__button-styles:hover{
+        color: $primary-color;
       }
 
       &__button-position{
@@ -156,7 +172,6 @@ $secondary-color:#ffffff;
         font-weight: 400;
       }
   }
-
 
   /*выпадающий список*/
   .top-container__nav {
@@ -381,9 +396,6 @@ $secondary-color:#ffffff;
         text-transform: uppercase;
         text-decoration: none;
       }
-      &__item:hover{
-        color:#fff;
-      }
     }
   }
   .menu__nav-list{/*nav-list*/
@@ -468,12 +480,11 @@ $secondary-color:#ffffff;
     justify-items: end;
     height: 100px;
 
-    &__small-button:hover{/*добавила сегодня*/
+   /* &__small-button:hover{
       background-color:$secondary-color;
     }
-    .small-button-styles:hover{/*добавила сегодня*/
       color: $primary-color;
-    }
+    }*/
 
       &__button{
         /*margin-left: 48px;*/
